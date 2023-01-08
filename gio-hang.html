@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="gio-hang.css">
+    <script src="https://kit.fontawesome.com/f20d460fd9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <header>
+       
+        <nav class="navBar">
+            <ul class="menu1">
+                <li class="conMenu1"><a href=""><img src="img/logo.png" alt="" srcset=""></a></li>
+                <li class="conMenu1"></li><input style="padding-left:20px" class="share" type="text" id="tim-kiem-san-pham" onchange="timKiemdeal();timKiemDanhRiengChoBoMe();timKiemKhuyenMaiLon()" placeholder="Tìm kiếm nhanh"
+                    /></li>
+                <li onclick=" timKiem();timKiemlon();timKiemDanhRiengChoBoMe()" class="conMenu1"><i style="color: aliceblue; margin-top: 10px; "
+                            class="fas fa-search"></i></li>
+                <li class="conMenu1" onclick="playAudio()" > <i style="color: aliceblue; margin-left: 10px;margin-top: 10px;"
+                    class="fas fa-music"></i> </li>
+                <li class="conMenu1"> <a href=""><i style="color: aliceblue;margin-top: 10px;"
+                            class="fas fa-shopping-cart"></i></a> </li>
+                <li><a href="http://127.0.0.1:5501/index.html"><button class="sin">Trang Chủ</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="name">
+        <h2>Sản phẩm đã mua</h2>
+    </div>
+    <div style="border: 1px solid rgb(253, 92, 146);padding:10px 10px;border-radius: 10px;" id="dssp">
+
+    </div>
+    <div class="tong-tien">
+        <p style="float: left; margin-top: 4px;margin-left: 42%;" class="tong">Tổng tiền:   </p>
+        <div style="float:left;margin-left: 10px;margin-top: 4px;" id="tongTien">
+            
+        </div>
+        <p style="float:left;margin-top: 4px;">K</p>
+        <div style="clear: both"></div>
+       
+    </div>
+    <button class="tong-tien" style="background-color: aliceblue;">Đặt Hàng</button>
+    <p style="clear: both;"></p>
+
+    <div class="thong-tin">
+        <div class="thong-tin-trong">
+            <div class="note-thong-tin">
+                <b>VỀ CON CƯNG</b>
+                <p>Giới thiệu về Con Cưng</p>
+                <p>Tuyển dụng khối Văn phòng</p>
+                <p>Tuyển dụng Khối siêu thị</p>
+                <p>Chính sách bảo mật</p>
+                <p>Điều khoản sử dụng</p>
+            </div>
+            <div class="note-thong-tin">
+                <b>HỖ TRỢ KHÁCH HÀNG</b>
+                <p>Hotline miễn phí</p>
+                <p>CSKH: 1800 6703 (8h-22h)*</p>
+                <p>Mua hàng: 1800 6609 (7h:30-22h)*</p>
+                <p>(Tất cả các ngày trong tuần)</p>
+            </div>
+            <div class="note-thong-tin">
+                <b>THÔNG TIN</b>
+                <p>Tra cứu hoá đơn</p>
+                <p>Mua & giao nhận Online</p>
+                <p>Qui định & hình thức thanh toán</p>
+                <p>Bảo hành & Bảo trì</p>
+                <p>Đổi trả & Hoàn tiền</p>
+            </div>
+            <div class="note-thong-tin">
+                <b>ĐƠN VỊ VẬN CHUYỂN</b>
+                <div style="clear: both"></div>
+                <img src="img/s1.png" alt="">
+                <img src="img/s2.png" alt="">
+                <img src="img/s4.png" alt="">
+            </div>
+            <div class="note-thong-tin">
+                <b>CÁCH THỨC THANH TOÁN</b>
+                <div class="thanh-toan">
+                    <img src="img/s6.png" alt="">
+                    <img src="img/s7.png" alt="">
+                    <img src="img/s8.png" alt="">
+                    <img src="img/s9.png" alt="">
+                    <img src="img/s10.png" alt="">
+                    <img src="img/s11.png" alt="">
+                    <img src="img/s12.png" alt="">
+                    <img src="img/13.png" alt="">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lien-he">
+        <div class="logo">
+            <img src="img/s14.png" alt="">
+        </div>
+        <div class="thong-tin-lien-he">
+            <b>CÔNG TY CỔ PHẦN CON CƯNG</b>
+            <p>Điện thoại: 028 7300 6609</p>
+            <p>Email: cskh@concung.com</p>
+            <p>ĐKKD: 101-103 Trần Quang Khải, P.Tân Định, Q.1, HCM</p>
+            <p>Văn phòng: Tầng 14 Tòa nhà Phú Mỹ Hưng Tower, 08 Hoàng Văn Thái,
+                P.Tân Phú, Q.7, HCM</p>
+        </div>
+        <div class="hinh-bao-hiem">
+            <img src="img/s15.png" alt="">
+        </div>
+        <div class="qr">
+            <b>SCAN ĐỂ TẢI APP</b>
+            <img src="img/s16.png" alt="">
+        </div>
+        <b style="float: left;width:25%;">KẾT NỐI VỚI CHÚNG TÔI</b>
+
+        <div class="fb">
+
+            <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="fb">
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="fb">
+            <i class="fab fa-instagram-square"></i>
+        </div>
+
+    </div>
+    <script src="gio-hang.js"></script>
+</body>
+</html>

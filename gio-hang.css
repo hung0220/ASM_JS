@@ -1,0 +1,275 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+    
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: QuickSand;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.navBar {
+    background-color: #F24A89;
+}
+
+.menu1 {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu1 .conMenu1 i {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+
+.menu1 .conMenu1:last-child {
+    margin-left: auto;
+}
+
+.menu1 .conMenu1:nth-child(0) {
+    margin-left: 660px;
+}
+
+.menu1 .conMenu1 i {
+    font-size: 20px;
+}
+
+.imgTop {
+    margin-bottom: -5px;
+}
+
+.share {
+    width: 55%;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-left: 4%;
+    border: none;
+}
+
+.sin {
+    margin-left: 10px;
+    margin-top: 17px;
+    font-size: 12px;
+    width: 150%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: none;
+}
+
+/*------------------*/
+
+.name {
+    width: 100%;
+    height: 50px;
+    background-color: #F24A89;
+    margin-bottom:10px;
+
+}
+
+.name h2 {
+    text-align: center;
+    padding-top: 10px;
+    color:#fff
+}
+
+#dssp {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%
+    
+      
+}
+
+.gio-hang {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(240, 224, 233);
+}
+
+.hinh-anh {
+    width: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px
+}
+
+.ten {
+    width: 300px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+
+.gia {
+    width: 50px;
+    float: left;
+    margin-top: 12px;
+    font-size: 17px;
+    color: #3b3b3b
+}
+
+.Gia {
+    margin-left:25px;
+    width: 35px;
+    margin-top: 12px;
+    float: left;
+}
+.sl{
+    margin-left:25px;
+    width: 70px;
+    margin-top: 12px;
+    float: left;
+}
+.SL{ 
+    padding-left: 5px;
+    width: 35px;
+    margin-top: 13px;
+    float: left;
+}
+
+.hinh-anh img {
+    transition: transform 1s;
+    border-radius: 10px;
+    border: 1px solid rgb(243, 1, 82);
+}
+
+.hinh-anh img:hover {
+    transform: scale(1.1)
+}
+
+.xoa {
+    width: 35px;
+    margin-top: 22px;
+    float: right;
+}
+.xoa i{
+    font-size:15px;
+    color:#3b3b3b
+}
+.xoa i:hover{
+    color: aliceblue
+}
+.tong-tien{
+    padding-left: 20px;
+    margin-top:10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid red;
+    height:30px;
+    border-radius: 8px;
+}
+/*Thông tin*/
+
+.thong-tin {
+    margin-top: 20px;
+    float: right;
+    width: 100%;
+    background-color: #F9F9F9;
+    height: 190px;
+}
+
+.thong-tin-trong {
+    margin-left: 11%;
+    margin-right: 11%;
+    background-color: #daee94
+}
+
+.note-thong-tin {
+    width: 20%;
+    float: left;
+}
+
+.note-thong-tin b {
+    font-size: 12px;
+}
+
+.note-thong-tin p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.note-thong-tin img {
+    width: 40%;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.thanh-toan img {
+    width: 28%;
+    border-radius: 5px;
+}
+
+.lien-he {
+    float: right;
+    width: 100%;
+    background-color: #fff;
+    height: 200px;
+}
+
+/*    */
+
+.logo {
+  
+    margin-left: 11%;
+    width: 7%;
+    float: left;
+    margin-right: 30px;
+}
+
+.thong-tin-lien-he {
+    width: 30%;
+    float: left;
+}
+
+.hinh-bao-hiem {
+    margin-top: 2%;
+    margin-left: 30px;
+    width: 9%;
+    float: left;
+    margin-right: 30px;
+}
+
+.qr {
+    width: 10%;
+    float: left;
+}
+
+.qr img {
+    margin-left: 28px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.fb {
+    margin-left: 10px;
+    ;
+    margin-top: 20px;
+    width: 60px;
+    float: left
+}
+
+.fb i {
+    font-size: 30px;
+}

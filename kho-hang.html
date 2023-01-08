@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kho Hàng</title>
+    <link rel="stylesheet" href="kho-hang.css">
+    <script src="https://kit.fontawesome.com/f20d460fd9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="form-cap-nhat">
+
+    </div>
+    <header>
+       
+        <nav class="navBar">
+            <ul class="menu1">
+                <li class="conMenu1"><a href=""><img src="img/logo.png" alt="" srcset=""></a></li>
+                <li class="conMenu1"></li><input style="padding-left:20px" class="share" type="text" id="tim-kiem-san-pham" onchange="timKiemdeal();timKiemDanhRiengChoBoMe();timKiemKhuyenMaiLon()" placeholder="Tìm kiếm nhanh"
+                    /></li>
+                <li onclick=" timKiem();timKiemlon();timKiemDanhRiengChoBoMe()" class="conMenu1"><i style="color: aliceblue; margin-top: 10px; "
+                            class="fas fa-search"></i></li>
+                <li class="conMenu1" onclick="playAudio()"> <i style="color: aliceblue; margin-left: 10px;margin-top: 10px;"
+                    class="fas fa-music"></i></li>
+                <li class="conMenu1"> <a href="http://127.0.0.1:5501/gio-hang.html"><i style="color: aliceblue;margin-top: 10px;"
+                            class="fas fa-shopping-cart"></i></a> </li>
+                <li><a href="http://127.0.0.1:5501/index.html"><button class="sin">Trang Chủ</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-left">
+        <div class="form">
+            
+            <button onclick="ClickThemSanPhamMoi()" >Thêm sản phẩm vào Deal Online mỗi ngày</button>
+            <button onclick="ClickThemSanPhamMoiKhuyenMaiLon()" >Thêm sản phẩm vào khuyễn mãi lớn</button>
+            <button onclick="ClickThemSanPhamDanhRiengChoBoMe()" >Thêm sản phẩm vào dành riêng cho bố mẹ</button>
+
+           
+               <button onclick="sapXepTangDan();sapXepTangDanDanhRiengChoBoMe()"> Sắp Xếp Tăng Dần</button>
+               <button onclick="sapXepGiamDan();sapXepGiamDanDanhRiengChoBoMe()"> Sắp Xếp Giảm Dần</button>
+
+
+               
+        </div>
+    </div>
+
+
+    <div class="container-right">
+       <h2 style="margin-left: 30px;">Deal Online mỗi ngày</h2>
+        
+        <div id="dssp">
+            
+            <!-- <div class="san-pham">
+                <div class="hinh-anh">
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/114111/iphone-x-256gb-a1-600x600.jpg" alt="ảnh sản phẩm">
+                </div>
+                <h2 class="ten"></h2>
+                <button>Sửa sản phẩm</button>
+                <button>Xóa sản phẩm</button>
+            </div>
+           
+            <div class="san-pham">
+                <div class="hinh-anh">
+                    <img src="https://cdn.tgdd.vn/Products/Images/42/114111/iphone-x-256gb-a1-600x600.jpg" alt="ảnh sản phẩm">
+                </div>
+                <h2 class="ten"></h2>
+                <button>Sửa sản phẩm</button>
+                <button>Xóa sản phẩm</button>
+            </div> -->
+            <!--  -->
+            
+            
+               
+
+        </div>
+        <p style="clear: both;"></p>
+        <h2 style="margin-left: 30px;">Khuyễn mãi lớn</h2>  
+         
+           
+        <div id="khuyen-mai-lon">
+
+        </div>
+        <p style="clear: both;"></p>
+        <h2 style="margin-left: 30px;">Dành riêng bố mẹ</h2>  
+         
+           
+        <div id="danh-rieng-cho-bo-me">
+
+        </div>
+
+        
+    </div>
+<script src="kho-hang.js"></script>
+<script src="id.js"></script>
+</body>
+</html>
